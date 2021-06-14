@@ -23,6 +23,6 @@ public class AddOperation implements IOperation{
         int currentSize = equipmentList.getSize();
         equipmentList.setEquipment(currentSize, newEquipment);
         equipmentList.setSize(currentSize + 1);
-        System.out.println("新增裝備成功!");
+        System.out.println("新增成功!");
     }
 }
