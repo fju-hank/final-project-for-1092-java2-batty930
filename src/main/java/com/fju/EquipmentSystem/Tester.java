@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
+
         //準備好裝備的資料
         Object o = null;
         //建立使用者
