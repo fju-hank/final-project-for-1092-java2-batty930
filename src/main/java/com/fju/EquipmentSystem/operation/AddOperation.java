@@ -10,7 +10,7 @@ public class AddOperation implements IOperation{
     public void work(EquipmentList equipmentList) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("新增裝備");
-        System.out.println("請輸入新的裝備的名稱: ");
+        System.out.println("請輸入新的裝備的名稱(編號.名稱): ");
         String name = scanner.next();
         System.out.println("請輸入新的裝備的天數: ");
         String days = scanner.next();
