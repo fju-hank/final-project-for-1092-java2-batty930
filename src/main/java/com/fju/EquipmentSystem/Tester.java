@@ -1,4 +1,4 @@
-package com.fju;
+package com.fju.EquipmentSystem;
 
 public class Tester {
     public static void main(String[] args) {
