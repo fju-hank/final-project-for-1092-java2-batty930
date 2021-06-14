@@ -38,5 +38,5 @@ public class Equipment {
         public void setBorrowed(boolean borrowed) {
             isBorrowed = borrowed;
         }
-    }
 }
+
