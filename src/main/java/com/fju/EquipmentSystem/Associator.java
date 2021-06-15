@@ -1,4 +1,5 @@
 package com.fju.EquipmentSystem;
+
 import com.fju.EquipmentSystem.operation.*;
 import java.util.Scanner;
 

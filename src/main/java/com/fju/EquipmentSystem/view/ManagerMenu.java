@@ -1,4 +1,5 @@
 package com.fju.EquipmentSystem.view;
+
 import javax.swing.*;
 import java.awt.*;
 import java.lang.reflect.InvocationTargetException;

@@ -1,8 +1,12 @@
 package com.fju.EquipmentSystem.view;
 
+import com.fju.EquipmentSystem.Associator;
+import com.fju.EquipmentSystem.Manager;
+
 import javax.swing.*;
 import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
+import java.util.Scanner;
 
 public class StartGUI extends JFrame  {
 
@@ -19,9 +23,8 @@ public class StartGUI extends JFrame  {
 
         panel.setLayout(null);
 
+
         JLabel userLabel = new JLabel("您的姓名:");
-
-
         userLabel.setBounds(10,20,80,25);
         panel.add(userLabel);
 
@@ -40,6 +43,7 @@ public class StartGUI extends JFrame  {
         JButton loginassociatorButton = new JButton("社員");
         loginassociatorButton.setBounds(200, 50, 80, 25);
         panel.add(loginassociatorButton);
+
     }
 
 }
