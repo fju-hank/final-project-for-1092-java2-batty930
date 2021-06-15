@@ -21,6 +21,7 @@ public class StartGUI extends JFrame  {
 
         JLabel userLabel = new JLabel("您的姓名:");
 
+
         userLabel.setBounds(10,20,80,25);
         panel.add(userLabel);
 
