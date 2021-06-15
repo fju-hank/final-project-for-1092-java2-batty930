@@ -7,4 +7,8 @@ public class MainMenu {
     private JTextField textField2;
     private JButton a1社幹Button;
     private JButton a0社員Button;
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
 }
