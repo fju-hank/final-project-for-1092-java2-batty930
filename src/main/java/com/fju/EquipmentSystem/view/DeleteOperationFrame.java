@@ -32,6 +32,10 @@ public class DeleteOperationFrame extends JFrame {
         sureButton.setBounds(250, 165, 80, 25);
         panel.add(sureButton);
 
+        JButton returnButton = new JButton("返回");
+        returnButton.setBounds(140, 165, 80, 25);
+        panel.add(returnButton);
+
     }
 
 }
