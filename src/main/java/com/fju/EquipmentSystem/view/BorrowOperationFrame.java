@@ -26,6 +26,11 @@ public class BorrowOperationFrame extends JFrame {
         userLabel.setBounds(10, 20, 200, 25);
         panel.add(userLabel);
 
+        JTextField userText = new JTextField(20);
+        userText.setBounds(200, 20, 200, 25);
+        panel.add(userText);
+
+
         JLabel daysLabel = new JLabel("選擇租借的天數:");
         daysLabel.setBounds(10, 55, 200, 25);
         panel.add(daysLabel);
