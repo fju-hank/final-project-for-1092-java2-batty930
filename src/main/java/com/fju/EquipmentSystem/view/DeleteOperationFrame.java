@@ -38,7 +38,10 @@ public class DeleteOperationFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showConfirmDialog(null, "確定刪除此裝備嗎?", "刪除裝備", JOptionPane.OK_CANCEL_OPTION);
+                if (sureButton.isEnabled()){
+                    System.out.println("刪除成功");  }
             }
+
         });
 
         JButton returnButton = new JButton("返回");
