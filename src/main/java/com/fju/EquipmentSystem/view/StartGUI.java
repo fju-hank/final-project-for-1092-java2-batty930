@@ -51,6 +51,7 @@ public class StartGUI extends JFrame {
         sureButton.setBounds(80, 100, 80, 25);
         panel.add(sureButton);
 
+
         JButton returnButton = new JButton("返回");
         returnButton.setBounds(190, 100, 80, 25);
         panel.add(returnButton);
