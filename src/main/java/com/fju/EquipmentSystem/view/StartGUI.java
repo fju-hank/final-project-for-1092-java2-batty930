@@ -36,13 +36,25 @@ public class StartGUI extends JFrame {
         identityLabel.setBounds(10,50,80,25);
         panel.add(identityLabel);
 
-        JButton loginmanagerButton = new JButton("幹部");
-        loginmanagerButton.setBounds(100, 50, 80, 25);
-        panel.add(loginmanagerButton);
+        JRadioButton managerButton = new JRadioButton("幹部");
+        JRadioButton associatorButton = new JRadioButton("社員");
+        ButtonGroup roleButton = new ButtonGroup();
+        roleButton.add(managerButton);
+        managerButton.setBounds(100,50,80,25);
+        roleButton.add(associatorButton);
+        associatorButton.setBounds(200,50,80,25);
+        managerButton.setSelected(true);
+        panel.add(managerButton);
+        panel.add(associatorButton);
 
-        JButton loginassociatorButton = new JButton("社員");
-        loginassociatorButton.setBounds(200, 50, 80, 25);
-        panel.add(loginassociatorButton);
+        JButton sureButton = new JButton("確認");
+        sureButton.setBounds(80, 100, 80, 25);
+        panel.add(sureButton);
+
+        JButton returnButton = new JButton("返回");
+        returnButton.setBounds(190, 100, 80, 25);
+        panel.add(returnButton);
+
 
     }
 
