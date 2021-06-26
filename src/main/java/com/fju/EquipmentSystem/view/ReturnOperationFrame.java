@@ -2,6 +2,8 @@ package com.fju.EquipmentSystem.view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.lang.reflect.InvocationTargetException;
 
 public class ReturnOperationFrame extends JFrame{
@@ -32,6 +34,15 @@ public class ReturnOperationFrame extends JFrame{
         JButton sureButton = new JButton("確認");
         sureButton.setBounds(250, 165, 80, 25);
         panel.add(sureButton);
+        sureButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showConfirmDialog(null, "確定新增此裝備嗎?", "新增裝備", JOptionPane.OK_CANCEL_OPTION);
+                if (sureButton.isEnabled()){
+                    System.out.println("歸還成功! "); }
+            }
+
+        });
 
         JButton returnButton = new JButton("返回");
         returnButton.setBounds(140, 165, 80, 25);

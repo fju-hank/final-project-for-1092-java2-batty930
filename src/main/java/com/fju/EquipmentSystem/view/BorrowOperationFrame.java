@@ -2,6 +2,8 @@ package com.fju.EquipmentSystem.view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.lang.reflect.InvocationTargetException;
 
 
@@ -45,6 +47,15 @@ public class BorrowOperationFrame extends JFrame {
         JButton sureButton = new JButton("確認");
         sureButton.setBounds(250, 165, 80, 25);
         panel.add(sureButton);
+        sureButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showConfirmDialog(null, "確定租借此裝備嗎?", "租借裝備", JOptionPane.OK_CANCEL_OPTION);
+                if (sureButton.isEnabled()){
+                    System.out.println("租借成功! 請將此畫面截圖! 記得聯絡社產約定領取時間以及付租金呦! ");  }
+            }
+
+        });
 
         JButton returnButton = new JButton("返回");
         returnButton.setBounds(140, 165, 80, 25);
