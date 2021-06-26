@@ -80,8 +80,11 @@ public class DisplayOperationFrame extends JFrame{
         table.getTableHeader().setReorderingAllowed(false);
 
         table.setRowHeight(35);
-        table.getColumnModel().getColumn(0).setPreferredWidth(40);
-        table.setPreferredScrollableViewportSize(new Dimension(600, 400));
+        table.getColumnModel().getColumn(0).setPreferredWidth(5);
+        table.getColumnModel().getColumn(1).setPreferredWidth(80);
+        table.getColumnModel().getColumn(3).setPreferredWidth(5);
+        table.getColumnModel().getColumn(4).setPreferredWidth(5);
+        table.setPreferredScrollableViewportSize(new Dimension(500, 400));
 
         JScrollPane scrollPane = new JScrollPane(table);
         panel.add(scrollPane);
