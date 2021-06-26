@@ -8,7 +8,7 @@ import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
 
-public class StartGUI extends JFrame  {
+public class StartGUI extends JFrame {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("登山社裝備租借系統");
