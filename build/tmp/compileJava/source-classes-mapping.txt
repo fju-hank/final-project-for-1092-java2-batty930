@@ -1,2 +1,28 @@
-com/fju/Tester.java
- com.fju.Tester
+com/fju/EquipmentSystem/operation/BorrowOperation.java
+ com.fju.EquipmentSystem.operation.BorrowOperation
+com/fju/EquipmentSystem/operation/DisplayOperation.java
+ com.fju.EquipmentSystem.operation.DisplayOperation
+com/fju/EquipmentSystem/EquipmentList.java
+ com.fju.EquipmentSystem.EquipmentList
+com/fju/EquipmentSystem/operation/ExitOperation.java
+ com.fju.EquipmentSystem.operation.ExitOperation
+com/fju/EquipmentSystem/operation/IOperation.java
+ com.fju.EquipmentSystem.operation.IOperation
+com/fju/EquipmentSystem/operation/ReturnOperation.java
+ com.fju.EquipmentSystem.operation.ReturnOperation
+com/fju/EquipmentSystem/operation/FindOperation.java
+ com.fju.EquipmentSystem.operation.FindOperation
+com/fju/EquipmentSystem/Equipment.java
+ com.fju.EquipmentSystem.Equipment
+com/fju/EquipmentSystem/Manager.java
+ com.fju.EquipmentSystem.Manager
+com/fju/EquipmentSystem/Tester.java
+ com.fju.EquipmentSystem.Tester
+com/fju/EquipmentSystem/User.java
+ com.fju.EquipmentSystem.User
+com/fju/EquipmentSystem/operation/DeleteOperation.java
+ com.fju.EquipmentSystem.operation.DeleteOperation
+com/fju/EquipmentSystem/Associator.java
+ com.fju.EquipmentSystem.Associator
+com/fju/EquipmentSystem/operation/AddOperation.java
+ com.fju.EquipmentSystem.operation.AddOperation
